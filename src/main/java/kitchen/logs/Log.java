@@ -13,6 +13,6 @@ public class Log {
 
   @Override
   public String toString() {
-    return "@log---" + this.date + ": " + content;
+    return "@log- " + this.date + ":\t" + content;
   }
 }
